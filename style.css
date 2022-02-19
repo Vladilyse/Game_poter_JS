@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,400;1,400;1,600&display=swap');
+
+
+body{
+    background-color: rgb(63, 63, 63);
+}
+#general{
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+}
+#block{
+    width: 900px;
+    height: 710px;
+    /* margin: 20px auto; */
+    margin-top: 5px;
+    margin-left: 50px;
+    position: relative;
+}
+#img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 740px;
+    width: 800px;
+    /* display: block; */
+    /* margin: auto; */
+}
+#img3{
+    position: relative;
+    border-radius: 100%;
+    height: 40px;
+}
+#b_start{
+    position: relative;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    bottom: 205px;
+    left: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pad{
+    padding-top: 200px;
+}
+#b_up{
+    position: relative;
+    left: 442px;
+    bottom: 367px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+}
+#b_left{
+    position: relative;
+    left: 402px;
+    bottom: 360px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+}
+#b_down{
+    position: relative;
+    left: 444px;
+    bottom: 354px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+}
+#b_right{
+    position: relative;
+    left: 484px;
+    bottom: 432px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+}
+#inp1{
+    position: relative;
+    top: -100px;
+    left: 170px;
+    padding: 10px 25px; 
+    outline: none;
+}
+.p1{
+    position: relative;
+    top: -100px;
+    left: 150px;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+#gen{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 22px;
+    left: 770px;
+    /* height: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    opacity: 0;
+    transition: all 1s;
+}
+#nick{
+    position: absolute;
+    top: -35px;
+    /* left: 770px; */
+    height: 50px;
+    height: 0;
+    color: rgb(62, 170, 0);
+}
+#img10{
+    height: 50px;
+}
+#img20{
+    position: absolute;
+    left: 0px;
+    top: -60px;
+    height: 150px;
+    transform: rotate(-90deg);
+    opacity: 0;
+    transition: all 3s;
+    z-index: -1;
+}
+#img21{
+    position: absolute;
+    right: 0px;
+    top: -60px;
+    height: 150px;
+    transform: rotate(90deg);
+    opacity: 0;
+    transition: all 3s;
+    z-index: -1;
+}
+#img22{
+    position: absolute;
+    right: -50px;
+    top: -60px;
+    height: 150px;
+    transform: rotate(0deg);
+    opacity: 0;
+    transition: all 3s;
+    z-index: -1;
+}
+#img23{
+    position: absolute;
+    right: -50px;
+    top: -60px;
+    height: 150px;
+    transform: rotate(180deg);
+    opacity: 0;
+    transition: all 3s;
+    z-index: -1;
+}
+#img9{
+    position: relative;
+    top: 602px;
+    left: -50px;
+    height: 100px;
+}
